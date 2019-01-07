@@ -1,0 +1,350 @@
+/*Sayantan Chattopadhyay 1000818145*/
+/*Jay Ganguli 1001575191*/
+/*These are the query results. Each result is labeled with
+the question number (the same label as the query that produced the result in queries.sql)*/
+/*q1*/
+BusID	Age	Manufacturer
+
+250	5	Chevrolet
+
+254	1	Benz
+
+294	3	Toyota
+
+314	2	Toyota
+
+319	5	Chevrolet
+
+330	5	Chevrolet
+
+331	5	Ford
+
+351	1	Volkswagen
+
+368	3	Chevrolet
+
+370	5	Toyota
+
+375	6	Toyota
+
+377	4	Volvo
+
+379	6	Toyota
+
+383	8	Honda
+
+402	1	Benz
+
+404	3	Chevrolet
+
+412	3	Toyota
+
+431	3	Honda
+
+447	1	Chevrolet
+
+451	7	Toyota
+
+458	1	Honda
+
+459	1	Benz
+
+476	4	Honda
+
+480	3	Honda
+
+481	3	Benz
+
+482	3	Chevrolet
+
+512	3	Benz
+
+527	3	Volvo
+
+/*-------------------------------------------------------------------------*/
+/*q2*/
+NumberOfStudents
+
+84
+
+/*-------------------------------------------------------------------------*/
+/*q3*/
+COUNT(st.SIN)
+
+7
+/*-------------------------------------------------------------------------*/
+
+/*q4*/
+RouteID	TotalRevenue
+
+4	121200
+
+5	85900
+
+1	85000
+
+6	66400
+
+10	65200
+
+7	49900
+/*-------------------------------------------------------------------------*/
+/*q5 part a*/
+
+
+SIN	FirstName	LastName
+
+99611229	Luisa	Harnish
+
+99616605	Joye	Nedman
+
+99625249	Harley	Works
+
+99641125	Stacey	Lortz
+
+99660420	Avery	Demus
+
+99664875	Reyes	Mesmer
+
+/*-------------------------------------------------------------------------*/
+/*q5 part b*/
+SIN	FirstName	LastName	TotalDemerit	TotalFine
+
+99630025	Mabel	Fower	13	1100
+
+99665378	Thea	Petermeier	12	930
+
+99645320	Micah	Gerten	11	1100
+
+99611222	Rosalind	Persechino	11	770
+
+99654603	Veta	Vandeberg	11	600
+
+99630173	Dianne	Tomasic	10	620
+99627956	Glennis	Roseum	10	530
+
+99633690	Kaycee	Alaibilla	9	400
+
+99664103	Herschel	Geneseo	9	250
+
+99642131	Shenika	Tapian	9	250
+
+99616605	Joye	Nedman	8	800
+
+99625249	Harley	Works	8	600
+
+99659833	Ronnie	Kettelle	8	170
+
+99636745	Tesha	Brang	7	430
+
+99613410	Marya	Chhour	7	180
+
+99664875	Reyes	Mesmer	3	50
+
+99660420	Avery	Demus	2	70
+
+99611229	Luisa	Harnish	2	70
+
+99641125	Stacey	Lortz	2	60
+
+/*-------------------------------------------------------------------------*/
+/*q6*/
+BusID	Manufacturer
+
+331	Ford
+
+351	Volkswagen
+/*-------------------------------------------------------------------------*/
+/*q7 part a*/
+
+Type	revenue
+
+CH	75.00
+
+GE	1026.00
+
+SE	21.00
+
+ST	125.00
+
+/*-------------------------------------------------------------------------*/
+/*q7 part b*/
+Type	revenue
+
+GE	1026.00
+
+/*-------------------------------------------------------------------------*/
+/*q7 part c*/
+MostProfitablePassengerType
+
+GE
+
+/*-------------------------------------------------------------------------*/
+/*q8 part a*/
+RouteID	times
+
+4	26
+/*-------------------------------------------------------------------------*/
+/*q8 part b*/
+
+Date	times
+
+2017-05-07	93
+/*-------------------------------------------------------------------------*/
+/*q9*/
+
+Occupation
+
+Accounts Assistant
+
+Aircraft Maintenance Engineer
+
+Audit Manager
+
+Blind Fitter
+
+Chartered
+
+Chicken Chaser
+
+child
+
+Councillor
+
+Employment
+
+Florist
+
+Hairdresser
+
+Hotel Worker
+
+Investment Manager
+
+Licensed Premises
+
+Merchant Seaman
+
+Military Leader
+
+Minicab Driver
+
+Operative
+
+Orthopaedic
+
+Prison Chaplain
+
+Projectionist
+
+Purchasing Assistant
+
+Sand Blaster
+
+Tax Analyst
+
+Thermal Engineer
+
+Timber Worker
+
+Vehicle Technician
+
+Wood Cutter
+
+/*-------------------------------------------------------------------------*/
+/*q10*/
+FirstName	LastName	SIN
+
+Rosalind	Persechino	99611222
+
+Marya	Chhour	99613410
+
+Joye	Nedman	99616605
+
+Glennis	Roseum	99627956
+
+Kaycee	Alaibilla	99633690
+
+Avery	Demus	99660420
+
+Reyes	Mesmer	99664875
+
+Thea	Petermeier	99665378
+/*-------------------------------------------------------------------------*/
+/*q11*/
+
+FirstName	LastName	Sex
+
+Edelmira	Calzado	M
+
+Huey	Marcille	F
+
+Jaime	Wasurick	F
+
+Floyd	Bub	M
+
+Apolonia	Warne	M
+
+Chandra	Lagos	M
+
+Lera	Hua	M
+
+Crissy	Pacholec	M
+
+Jame	Mastro	F
+
+Gianna	Branin	M
+
+Francoise	Rautenstrauch	F
+
+Kendra	Loud	M
+
+Asha	Zoldak	F
+
+Ilona	Dudash	F
+
+Lourdes	Bauswell	M
+
+Willard	Lablanc	F
+
+Hannah	Edmison	F
+
+Annamae	Beliles	M
+
+Lauryn	Randol	F
+
+Tom	Loeza	M
+
+Paulene	Rhule	M
+
+Hortencia	Bresser	F
+
+Carole	Hughlett	M
+
+Nadine	Swartzbeck	M
+
+Miss	Dunning	F
+
+Leanna	Tijerina	M
+
+Elfrieda	Hinsch	M
+
+Danilo	Pride	M
+
+Colton	Pesqueira	F
+/*-------------------------------------------------------------------------*/
+/*q12*/
+
+RouteID	SName	ArrivalTime
+
+5	NASH at BARTON	16:36:30
+
+6	NASH at BARTON	16:35:30
+
+10	NASH at BARTON	16:31:00
+
+1	NASH at BARTON	16:30:00
+
+10	CHEDMAC at EXTENDICARE	16:23:30
+
+6	CHEDMAC at EXTENDICARE	16:20:30
